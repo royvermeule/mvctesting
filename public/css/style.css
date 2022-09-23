@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #24252A;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 20px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background: #16171a;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: #373941;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
     background: rgba(0,136,169,1);
 }
 
-.titles{
+.titles {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 24px;
@@ -32,7 +32,7 @@
     cursor: default;
 }
 
-li, a, button{
+li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -40,32 +40,34 @@ li, a, button{
     text-decoration: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: flex-end;
     text-align: right;
     padding: 30px 10%;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
 }
 
-.nav-links li{
+.nav-links li {
     display: inline-block;
     padding: 0px 20px;
     padding-top: 10px;
 }
 
-.nav-links li a{
+.nav-links li a {
     transition: all 0.3 ease 0s;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
     color: rgba(0,136,169,1);
+    border-bottom: 2px solid rgba(0,136,169,1);
+    font-weight: 600;
 }
 
-button{
+button {
     margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
@@ -75,15 +77,15 @@ button{
     transition: all 0.3 ease 0s;
 }
 
-button:hover{
+button:hover {
     background-color: rgba(0,136,169,0.5);
 }
 
-main{
+main {
     height: 1000px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     padding: 30px 10%;
@@ -91,19 +93,81 @@ footer{
     padding-bottom: 110px;
 }
 
-.footer-links li{
+.footer-links li {
     display: inline-block;
-    padding: 0px 80px;
+    padding: 0px 200px;
     background-color: #1e1e22;
 }
 
-.footer-links li a{
+.footer-links li a {
     transition: all 0.3 ease 0s;
     background-color: #1e1e22;
 }
 
-.footer-links li a:hover{
+.footer-links li a:hover {
     color: rgba(0,136,169,1);
+    border-bottom: 2px solid rgba(0,136,169,1);
+    font-weight: 600;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    padding-bottom: 110px;
+}
+
+.MyUserInfo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    padding: 80px;
+}
+
+.MyUserInfo div a {
+    font-size: 30px;
+}
+
+.MyUserInfo div a:hover {
+    color: rgba(0,136,169,1);
+    border-bottom: 2px solid rgba(0,136,169,1);
+    font-weight: 600;
+}
+
+.MyUserInfo div  {
+    font-size: 30px;
+    cursor: default;
+}
+
+.textSheet {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    padding: 80px;
+}
+
+.textSheet:hover {
+    cursor: default;
+}
+
+.textSheet div {
+    word-spacing: 4px;
+}
+
+.contact-list {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 80px;
+}
+
+.contact-list div {
+    font-size: 20px;
+    cursor: default;
+    color: #edf0f1;
 }
 
 
